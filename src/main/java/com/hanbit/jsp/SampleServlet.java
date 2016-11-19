@@ -13,6 +13,7 @@ public class SampleServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 	
 		resp.getOutputStream().println("sample");
+		resp.flushBuffer();
 	}
 
 }
